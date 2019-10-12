@@ -3,3 +3,4 @@ languageCode = "zh-cn"
 title = "MeiK's blog"
 theme = "ananke"
 pygmentsCodeFences = true
+googleAnalytics = "UA-107784973-4"
