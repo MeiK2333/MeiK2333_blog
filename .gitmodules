@@ -5,3 +5,6 @@
 	path = public
 	url = git@github.com:MeiK2333/MeiK2333.github.io.git
 	branch = master
+[submodule "themes/spectre-pixel"]
+	path = themes/spectre-pixel
+	url = git@github.com:st-wong/hugo-spectre-pixel-theme.git

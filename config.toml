@@ -1,6 +1,6 @@
 baseURL = "https://meik2333.com"
 languageCode = "zh-cn"
 title = "MeiK's blog"
-theme = "ananke"
+theme = "spectre-pixel"
 pygmentsCodeFences = true
 googleAnalytics = "UA-107784973-4"
