@@ -1,10 +1,7 @@
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://github.com/budparr/gohugo-theme-ananke.git
 [submodule "public"]
 	path = public
 	url = git@github.com:MeiK2333/MeiK2333.github.io.git
 	branch = master
-[submodule "themes/spectre-pixel"]
-	path = themes/spectre-pixel
-	url = git@github.com:st-wong/hugo-spectre-pixel-theme.git
+[submodule "themes/github-style"]
+	path = themes/github-style
+	url = git@github.com:MeiK2333/github-style.git

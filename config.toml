@@ -1,6 +1,13 @@
 baseURL = "https://meik2333.com"
 languageCode = "zh-cn"
 title = "MeiK's blog"
-theme = "spectre-pixel"
+theme = "github-style"
 pygmentsCodeFences = true
 googleAnalytics = "UA-107784973-4"
+
+[params]
+  author = "MeiK"
+  github = "MeiK2333"
+  description = "In solitude, where we are least alone."
+  twitter = "MeiK2333"
+  email = "meik2333@gmail.com"
