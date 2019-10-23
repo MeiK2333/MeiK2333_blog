@@ -4,7 +4,7 @@ date: 2018-03-19 13:32:37
 tags: [Python, 娱乐]
 ---
 
-![噫.jpg](/images/ascii/噫.jpg)
+<img src="/images/ascii/噫.jpg" width="100%" height="100%">
 
 
 <!--more-->
