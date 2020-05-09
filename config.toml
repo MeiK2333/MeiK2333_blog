@@ -6,6 +6,7 @@ pygmentsCodeFences = true
 googleAnalytics = "UA-107784973-4"
 
 [params]
+  contributions = "post"
   author = "MeiK"
   github = "MeiK2333"
   description = "In solitude, where we are least alone."
