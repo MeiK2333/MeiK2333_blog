@@ -9,8 +9,9 @@ layout: "about"
 ## Skills
 
 - C/C++
-- Python ( backend | spider )
-- Node ( spider | backend | frontend )
+- Python ( spider | backend )
+- Node ( spider | backend )
+- HTML / JavaScript / CSS
 - Rust
 - Go ( beginner )
 
@@ -35,5 +36,6 @@ layout: "about"
 
 - [Hugo](https://gohugo.io/)
 - [github-style](https://github.com/MeiK2333/github-style)
+- [GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark)
 - [GitHub Pages](https://pages.github.com/)
 - [Cloudflare](https://www.cloudflare.com/)
