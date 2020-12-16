@@ -2,14 +2,19 @@ baseURL = "https://meik2333.com/"
 languageCode = "zh-cn"
 title = "MeiK's blog"
 theme = "github-style"
-pygmentsCodeFences = true
 googleAnalytics = "UA-107784973-4"
+copyright = "Theme by <a href='https://github.com/MeiK2333/github-style'>github-style</a>"
 
 [params]
-  contributions = "post"
   author = "MeiK"
   github = "MeiK2333"
   description = "In solitude, where we are least alone."
   twitter = "MeiK2333"
   email = "meik2333@gmail.com"
   utterances = "MeiK2333/MeiK2333.github.io"
+  rss = true
+  location = "China"
+  lastmod = true
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]

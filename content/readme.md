@@ -1,10 +1,7 @@
 ---
-title: "About"
+title: "README"
 date: 2020-05-09T14:46:47+08:00
-layout: "about"
 ---
-
-# About
 
 ## Skills
 
@@ -36,6 +33,5 @@ layout: "about"
 
 - [Hugo](https://gohugo.io/)
 - [github-style](https://github.com/MeiK2333/github-style)
-- [GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark)
 - [GitHub Pages](https://pages.github.com/)
 - [Cloudflare](https://www.cloudflare.com/)
