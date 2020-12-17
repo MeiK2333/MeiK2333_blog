@@ -4,6 +4,8 @@ title = "MeiK's blog"
 theme = "github-style"
 googleAnalytics = "UA-107784973-4"
 copyright = "Theme by <a href='https://github.com/MeiK2333/github-style'>github-style</a>"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 [params]
   author = "MeiK"
