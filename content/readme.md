@@ -5,12 +5,11 @@ date: 2020-05-09T14:46:47+08:00
 
 ## Skills
 
-- C/C++
-- Python ( spider | backend )
-- Node ( spider | backend )
-- HTML / JavaScript / CSS
+- Python
 - Rust
-- Go ( beginner )
+- C/C++
+- Node
+- HTML / JavaScript / CSS
 
 ## Link
 
@@ -23,11 +22,10 @@ date: 2020-05-09T14:46:47+08:00
 
 - [github-style](https://github.com/MeiK2333/github-style): A hugo theme, design by github.
 - [river](https://github.com/MeiK2333/river): Judger sandbox for Online Judge.
+- [newbie-sandbox](https://github.com/MeiK2333/newbie-sandbox): A safe, fast and stable linux program runtime.
 - [remote-chrome-crawler](https://github.com/MeiK2333/remote-chrome-crawler): Node parallel crawler framework.
-- [linovel-bark](https://github.com/MeiK2333/linovel-bark): Vue + GraphQL + Typeorm, A spider management site.
 - [apue](https://github.com/MeiK2333/apue): 《 Advanced Programming in the Unix Environment 》 exercise answers and code notes.
 - [recent_contests](https://github.com/MeiK2333/recent_contests): Recent Contests from frequently used OJs.
-- [blog](https://github.com/MeiK2333/blog): A simple http server, Written in C++.
 
 ## Build this site
 
