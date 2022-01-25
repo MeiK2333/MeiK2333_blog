@@ -17,6 +17,20 @@ pygmentsUseClasses = true
   rss = true
   location = "China"
   lastmod = true
+  enableGitalk = true
+
+  [params.gitalk]
+    clientID = "4d2994f790117e7633bd" # Your client ID
+    clientSecret = "da68dfaa74148e8440fae500dcf1751a21cbbec3" # Your client secret
+    repo = "MeiK2333.github.io"
+    owner = "MeiK2333"
+    admin = "MeiK2333"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
