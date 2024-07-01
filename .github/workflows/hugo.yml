@@ -50,4 +50,4 @@ jobs:
       - name: Git config
         run: git config --global user.email "meik2333@gmail.com" && git config --global user.name "MeiK2333" && cd public && git add . && git commit -m "rebuilding site $(date)" && git remote remove origin
       - name: Git upload
-        run: git remote add origin https://meik2333:${{ secrets.TOKEN }}@github.com/meik2333/meik2333.github.io.git && git push -u origin master
+        run: git remote add deploy https://meik2333:${{ secrets.TOKEN }}@github.com/meik2333/meik2333.github.io.git && git push -u deploy master
