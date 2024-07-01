@@ -49,5 +49,5 @@ jobs:
         run: hugo --minify --baseURL "https://meik2333.com"
       - name: Upload
         env:
-          ACCESS_TOKEN: ${{ secrets.SECRET }}
-        run: git config --global user.email "meik2333@gmail.com" && git config --global user.name "MeiK2333" && ./deploy.sh
+          TOKEN: ${{ secrets.TOKEN }}
+        run: git config --global user.email "meik2333@gmail.com" && git config --global user.name "MeiK2333" && cd public && git add . && git commit -m "rebuilding site $(date)" && git remote remove origin && git remote add origin https://meik2333:${TOKEN}@github.com/meik2333/meik2333.github.io.git && git push -u origin master
