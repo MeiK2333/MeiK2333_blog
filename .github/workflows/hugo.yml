@@ -48,4 +48,4 @@ jobs:
           HUGO_ENV: production
         run: hugo --minify --baseURL "https://meik2333.com"
       - name: Upload
-        run: ./deploy.sh
+        run: git config --global user.email "meik2333@gmail.com" && git config --global user.name "MeiK2333" && ./deploy.sh
