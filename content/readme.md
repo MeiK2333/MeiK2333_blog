@@ -8,7 +8,7 @@ date: 2020-05-09T14:46:47+08:00
 - Python
 - Rust
 - C/C++
-- Node
+- Node.js
 - HTML / JavaScript / CSS
 - Golang
 
