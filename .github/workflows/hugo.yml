@@ -52,4 +52,4 @@ jobs:
       - name: Git upload
         env:
           TOKEN: ${{ secrets.TOKEN  }}
-        run: cd public && git remote set-url origin https://meik2333:$TOKEN@github.com/MeiK2333/MeiK2333.github.io.git && git pull && git push
+        run: cd public && git remote -v && git status && git remote set-url origin https://meik2333:$TOKEN@github.com/MeiK2333/MeiK2333.github.io.git && git pull && git push
