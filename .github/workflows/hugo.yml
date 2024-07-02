@@ -43,6 +43,8 @@ jobs:
           submodules: recursive
       - name: Git config
         run: git config --global user.email "meik2333@gmail.com" && git config --global user.name "MeiK2333"
+      - name: Init theme
+        run: git submodule deinit themes/github-style && rm -rf .git/modules/themes/github-style && rm -rf themes/github-style && git@github.com:MeiK2333/github-style.git themes/github-style
       - name: Init public
         env:
           TOKEN: ${{ secrets.TOKEN  }}
@@ -54,6 +56,4 @@ jobs:
           HUGO_ENV: production
         run: hugo --minify --baseURL "https://meik2333.com"
       - name: Git upload
-        env:
-          TOKEN: ${{ secrets.TOKEN  }}
         run: cd public && git status && git add . && git commit -m "rebuilding site $(date)" && git push
