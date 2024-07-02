@@ -52,4 +52,4 @@ jobs:
       - name: Git upload
         env:
           TOKEN: ${{ secrets.TOKEN  }}
-        run: cd public && git remote add deploy https://meik2333:$TOKEN@github.com/meik2333/meik2333.github.io.git && git remote -v | cut -c 1-35 && git push -u deploy master
+        run: cd public && git remote add deploy https://meik2333:$TOKEN@github.com/MeiK2333/MeiK2333.github.io.git && git remote -v | cut -c 1-35 && git push -u deploy master
