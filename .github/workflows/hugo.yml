@@ -46,7 +46,7 @@ jobs:
       - name: Init theme
         env:
           TOKEN: ${{ secrets.TOKEN  }}
-        run: git submodule deinit themes/github-style && rm -rf .git/modules/themes/github-style && rm -rf themes/github-style && git clone https://meik2333:$TOKEN@github.com:MeiK2333/github-style.git themes/github-style
+        run: git submodule deinit themes/github-style && rm -rf .git/modules/themes/github-style && rm -rf themes/github-style && git clone https://meik2333:$TOKEN@github.com/MeiK2333/github-style.git themes/github-style
       - name: Init public
         env:
           TOKEN: ${{ secrets.TOKEN  }}
