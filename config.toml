@@ -18,6 +18,7 @@ pygmentsUseClasses = true
   location = "China"
   lastmod = true
   enableGitalk = true
+  headerIcon = "https://meik2333.com/images/avatar.png"
 
   [params.gitalk]
     clientID = "4d2994f790117e7633bd" # Your client ID
