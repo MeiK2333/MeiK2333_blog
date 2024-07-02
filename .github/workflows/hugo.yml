@@ -46,7 +46,7 @@ jobs:
       - name: Init public
         env:
           TOKEN: ${{ secrets.TOKEN  }}
-        run: git submodule deinit public && rm -rf .git/modules/public && rm -rf public && git clone https://meik2333:$TOKEN@github.com/MeiK2333/MeiK2333.github.io.git
+        run: git submodule deinit public && rm -rf .git/modules/public && rm -rf public && git clone https://meik2333:$TOKEN@github.com/MeiK2333/MeiK2333.github.io.git public
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
