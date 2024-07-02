@@ -10,13 +10,14 @@ date: 2020-05-09T14:46:47+08:00
 - C/C++
 - Node
 - HTML / JavaScript / CSS
+- Golang
 
 ## Link
 
 - Email: <meik2333@gmail.com>
 - GitHub: [MeiK2333](https://github.com/MeiK2333)
 - Blog: [meik2333.com](https://meik2333.com)
-- Twitter: [MeiK2333](https://twitter.com/MeiK2333)
+- X: [MeiK2333](https://x.com/MeiK2333)
 
 ## Repo
 
