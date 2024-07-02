@@ -16,7 +16,6 @@ pygmentsUseClasses = true
   utterances = "MeiK2333/MeiK2333.github.io"
   rss = true
   location = "China"
-  lastmod = true
   enableGitalk = true
   headerIcon = "https://meik2333.com/images/avatar.png"
 
