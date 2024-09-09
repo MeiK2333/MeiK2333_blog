@@ -14,9 +14,9 @@ date: 2020-05-09T14:46:47+08:00
 
 ## Link
 
-- Email: <meik2333@gmail.com>
 - GitHub: [MeiK2333](https://github.com/MeiK2333)
 - Blog: [meik2333.com](https://meik2333.com)
+- Email: <meik2333@gmail.com>
 - X: [MeiK2333](https://x.com/MeiK2333)
 
 ## Repo
